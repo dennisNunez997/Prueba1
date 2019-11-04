@@ -31,10 +31,10 @@
         app:layout_constraintVertical_bias="0.664" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn24"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
@@ -43,10 +43,10 @@
         app:layout_constraintVertical_bias="0.306" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn15"
         android:layout_width="153dp"
         android:layout_height="54dp"
-        android:text="Button"
+        android:text="ejercicio 15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
@@ -55,10 +55,10 @@
         app:layout_constraintVertical_bias="0.196" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn14"
         android:layout_width="151dp"
         android:layout_height="56dp"
-        android:text="Button"
+        android:text="ejercicio 14"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
@@ -67,10 +67,10 @@
         app:layout_constraintVertical_bias="0.194" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn26"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 26"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
@@ -79,10 +79,10 @@
         app:layout_constraintVertical_bias="0.306" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn32"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
@@ -91,10 +91,10 @@
         app:layout_constraintVertical_bias="0.416" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn39"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 39"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
@@ -103,10 +103,10 @@
         app:layout_constraintVertical_bias="0.416" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn48"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 48"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.191"
@@ -115,10 +115,10 @@
         app:layout_constraintVertical_bias="0.521" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn51"
         android:layout_width="150dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:text="ejercicio 51"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
@@ -142,7 +142,6 @@
         android:id="@+id/TextViewName"
         android:layout_width="110dp"
         android:layout_height="19dp"
-        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.468"

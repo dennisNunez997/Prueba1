@@ -18,6 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ProfileActivity extends AppCompatActivity {
     private Button ButtonSignOut;
+    private Button btn14,btn15,btn24,btn26,btn32,btn39,btn48,btn51,btnCamara;
     private TextView textViewName;
     private FirebaseAuth Auth;
     private DatabaseReference Database;
@@ -29,6 +30,15 @@ public class ProfileActivity extends AppCompatActivity {
         Auth = FirebaseAuth.getInstance();
         Database = FirebaseDatabase.getInstance().getReference();
         textViewName = (TextView) findViewById(R.id.TextViewName);
+        btn14 = (Button) findViewById(R.id.btn14);
+        btn15 = (Button) findViewById(R.id.btn15);
+        btn24 = (Button) findViewById(R.id.btn24);
+        btn26 = (Button) findViewById(R.id.btn26);
+        btn32 = (Button) findViewById(R.id.btn32);
+        btn39 = (Button) findViewById(R.id.btn39);
+        btn48 = (Button) findViewById(R.id.btn48);
+        btn51 = (Button) findViewById(R.id.btn51);
+
         ButtonSignOut = (Button) findViewById(R.id.btnSignout);
         ButtonSignOut.setOnClickListener(new View.OnClickListener()
         {
@@ -37,6 +47,70 @@ public class ProfileActivity extends AppCompatActivity {
             {
                 Auth.signOut();
                 startActivity(new Intent(ProfileActivity.this, MainActivity.class));
+            }
+        });
+
+        btn14.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio14.class));
+            }
+        });
+
+        btn15.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio15.class));
+            }
+        });
+
+        btn24.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio24.class));
+            }
+        });
+
+        btn26.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio26.class));
+            }
+        });
+
+        btn32.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio32.class));
+            }
+        });
+
+        btn39.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio39.class));
+            }
+        });
+
+        btn48.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio48.class));
+            }
+        });
+
+        btn51.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, ejercicio51.class));
             }
         });
     }
