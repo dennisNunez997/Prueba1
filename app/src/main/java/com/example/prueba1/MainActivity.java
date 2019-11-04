@@ -23,6 +23,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     private EditText EditTextName, EditTextEmail, EditTextPassword;
     private Button btnRegistro;
+    private Button btnSendToLogin;
     //variables de los datos para registrar
     private String name="";
     private String email="";
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         EditTextPassword = (EditText) findViewById(R.id.EditTextPassword);
 
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
+        btnSendToLogin = (Button) findViewById(R.id.btnSendToLogin);
 
         btnRegistro.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -71,6 +73,16 @@ public class MainActivity extends AppCompatActivity {
 
 
             }
+        });
+        btnSendToLogin.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                finish();
+            }
+
         });
 
     }
@@ -113,6 +125,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
 
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        if(Auth.getCurrentUser() != null)
+        {
+            startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+            finish();
+        }
     }
 }
