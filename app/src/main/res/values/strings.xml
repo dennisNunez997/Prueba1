@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Prueba1</string>
+    <string name="agregar">agregar</string>
+    <string name="pulse_unos_segundos_el_contacto_para_eliminar">pulse_unos_segundos_el_contacto_para_eliminar</string>
+    <string name="nombre_y_telefono">nombre_y_telefono</string>
+    <string name="nombre_del_archivo">nombre_del_archivo</string>
+    <string name="video1_mp4">video1_mp4</string>
+    <string name="tomar_video">tomar_video</string>
+    <string name="recuperar_video">recuperar_video</string>
+    <string name="ver">ver</string>
 </resources>
