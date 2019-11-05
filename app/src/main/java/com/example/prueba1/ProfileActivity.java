@@ -38,6 +38,7 @@ public class ProfileActivity extends AppCompatActivity {
         btn39 = (Button) findViewById(R.id.btn39);
         btn48 = (Button) findViewById(R.id.btn48);
         btn51 = (Button) findViewById(R.id.btn51);
+        btnCamara = (Button) findViewById(R.id.btnCamara);
 
         ButtonSignOut = (Button) findViewById(R.id.btnSignout);
         ButtonSignOut.setOnClickListener(new View.OnClickListener()
@@ -113,6 +114,16 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(new Intent(ProfileActivity.this, ejercicio51.class));
             }
         });
+
+        btnCamara.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(ProfileActivity.this, CamaraActivity.class));
+            }
+        });
+
+
     }
 
     private void getUserInfo()
